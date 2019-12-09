@@ -29,7 +29,7 @@ def main():
     parser.add_argument('-get', nargs=1, required=False)
 
     args = parser.parse_args()
-    email = 'alimm@seas.upenn.edu' #Change to your own email.
+    email = '' #Change to your own email.
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
