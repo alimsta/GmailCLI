@@ -15,7 +15,7 @@ To use the tool, gmail authentication must first be established. Navigate to htt
   `python3 gmailCLI.py –draft [receiver’s email] [Subject in quotes] [Body in quotes]`
   Example: `python3 gmailCLI.py -draft receiver@gmail.com "CIS191 Question" "When is the final?"`
 - Create draft with attachment:
-  `python3 gmailCLI.py –draft [receiver’s email] [Subject in quotes] [Body in quotes] –a [file path]`\n
+  `python3 gmailCLI.py –draft [receiver’s email] [Subject in quotes] [Body in quotes] –a [file path]`
   Example: `python3 gmailCLI.py -draft receiver@gmail.com "Test Picture" "Here is a cool pic" -a logo.jpg`
 - View n most recent emails:
   `python3 gmailCLI.py –get [number to fetch]`
